@@ -11,8 +11,8 @@ body
 	grid-template-columns: 1fr; 
 }
 
-/*Nav styles*/
-.nav-wrapper {
+/*Nav-bar styles*/
+.Header {
 	display: flex;
 	justify-content: space-between;
 	padding: 200px:
@@ -23,50 +23,51 @@ body
 	display: flex;
 }
 
-.nav-wrapper > .left-side > div
+.Header > .left-side > div
 {
 	margin-right: 20px;
 	font-size: 0.9em;
 	text-transform: uppercase;
 }
-.nav-link-wrapper
+.Header-outline
 {
 	height: 25px;
-	border-bottom: 2px solid transparent; 
+	border-bottom: 1px solid transparent; 
 	transition: border-bottom 0.5s;
 }
-.nav-link-wrapper a
+.Header-outline a
 {
 	color: teal;
 	text-decoration: none;
 	transition: color 0.5s;
 }
-.nav-link-wrapper:hover
+
+.Header-outline:hover
 {
-	border-bottom: 2px solid black;
+	border-bottom: 1px solid black;
 }
-.nav-link-wrapper a:hover 
+.Header-outline a:hover 
 {
 	color: black;
 }
 
-.active-nav-link {
-	border-bottom: 2px solid black;
+.active-Header-outline {
+	border-bottom: 1px solid black;
 }
 
-.active-nav-link a{
+.active-Header-outline a{
 	color: black !important;
 }
 
 
-/* Portfolio styles*/
-.portfolio-items-wrapper
+/* Home page content styles*/
+.portfolio-items-content
 {
 	display: grid;
 	grid-template-columns: 1fr 1fr; 
 }
 
-.portfolio-item-wrapper
+.portfolio-item-content
 {
 	position: relative;
 }
@@ -80,7 +81,7 @@ body
 	background-repeat: no-repeat;
 }
 	
-.img-text-wrapper
+.img-text-content
 {
 	position: absolute;
 	top: 0;
@@ -93,21 +94,21 @@ body
 	padding-left:100px;
 	padding-right:100px;	
 }	
-.logo-wrapper img
+.logo-content img
 {
 	width: 50%;
 	margin-bottom: 20px;
 }
 
 /*needs to be more specific with selector*/
-.img-text-wrapper .subtitle
+.img-text-content .subtitle
 {
 	transition: 1s;
 	font-weight: 600;
 	color: transparent;
 }
 
-.img-text-wrapper:hover .subtitle
+.img-text-content:hover .subtitle
 {
 	font-weight:600;
 	color: teal;
@@ -120,45 +121,45 @@ body
 } 
 	
 	/* cv*/
-.two-column-wrapper 
+.two-column-content
 {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 }
 
-.profile-image-wrapper img
+.profile-image-content img
 {
 	width: 65%;
 }
 
-.profile-content-wrapper
+.profile-content
 {
 	padding: 30px;
 }
 
-.profile-content-wrapper h1
+.profile-content h1
 {
 	color: teal;
 }
 
 /*contacts*/
-.two-column-wrapper 
+.two-column-content 
 {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 }
 
-.contact-image-wrapper img
+.contact-image-content img
 {
 	width: 65%;
 }
 
-.contact-content-wrapper
+.contact-content
 {
 	padding: 30px;
 }
 
-.contact-content-wrapper h1
+.contact-content h1
 {
 	color: teal;
 }
