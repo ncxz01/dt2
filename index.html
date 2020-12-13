@@ -1,1 +1,98 @@
-Hello world
+<DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>MY WEBSITE</title>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+	
+		<div class="container">
+			<div class="Header">
+				<div class="left-side">
+					<div class="Header-outline active-Header-outline">
+						<a href="index.html">Home</a>
+					</div>	
+					
+					<div class="Header-outline">
+						<a href="CV.html">CV</a>
+					</div>
+					
+					<div class="Header-outline">
+						<a href="contacts.html">Contacts</a>
+					</div>
+				</div>
+				
+				<div class="right-side">
+					<div class="brand">
+						<div> NICHOLAS LUBEGA </div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="content">
+				<div class="portfolio-items-content">
+				
+					<div class="portfolio-item-content">
+						<div class="portfolio-img-background" style="background-image:url(images/testimage.jpg)"></div>
+						
+						<div class="img-text-content">
+							<div class="logo-content">
+								<img src="images/logos/newturtle.PNG">
+							</div>
+							
+							<div class="subtitle">
+								JUST A TEST LOL.
+							</div>
+						</div>	
+					</div>
+					
+					<div class="portfolio-item-content">
+						<div class="portfolio-img-background" style="background-image:url(images/testimage.jpg)"></div>
+						
+						<div class="img-text-content">
+							<div class="logo-content">
+								<img src="images/logos/owl.png">
+							</div>
+							
+							<div class="subtitle">
+								ACADEMICS
+							</div>
+						</div>	
+					</div>
+				
+			
+				</div>
+			</div>
+			
+		</div>
+	<h1>Embedding a youtube video. First time.</h1>
+						
+		<p> Quick family guy clip.</p>
+					
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/zQNnyxuru4M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	
+										
+	</body>
+	<script>
+		const portfolioItems = document.querySelectorAll('.portfolio-item-content')
+		
+		portfolioItems.forEach(portfolioItem =>
+		{
+			portfolioItem.addEventListener('mouseover', () => 
+			{
+				portfolioItem.childNodes[1].classList.add('img-darken');
+			})
+			
+			portfolioItem.addEventListener('mouseout', () => 
+			{
+				portfolioItem.childNodes[1].classList.remove('img-darken');
+			})
+			
+			
+			
+		}) 
+	</script>
+</html>
+	
