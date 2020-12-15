@@ -1,8 +1,13 @@
 /*Master styles*/
+h1 {
+	color: #111111;
+}
+
 body
 {
-	font-family:"Oswald", sans-serif;
+	font-family:"Poppins", Lato;
 	margin: 9px;
+	background-color: #5B5655;
 }
 
 .container
@@ -37,7 +42,7 @@ body
 }
 .Header-outline a
 {
-	color: teal;
+	color: #FF851B;
 	text-decoration: none;
 	transition: color 0.5s;
 }
@@ -98,6 +103,7 @@ body
 {
 	width: 50%;
 	margin-bottom: 20px;
+	position: center; 
 }
 
 /*needs to be more specific with selector*/
@@ -111,7 +117,7 @@ body
 .img-text-content:hover .subtitle
 {
 	font-weight:600;
-	color: teal;
+	color: #FF851B;
 }
 
 .img-darken
@@ -130,6 +136,7 @@ body
 .profile-image-content img
 {
 	width: 65%;
+	position: relative;
 }
 
 .profile-content
@@ -139,7 +146,7 @@ body
 
 .profile-content h1
 {
-	color: teal;
+	color: #111111;
 }
 
 /*contacts*/
@@ -161,5 +168,5 @@ body
 
 .contact-content h1
 {
-	color: teal;
+	color: #111111;
 }
