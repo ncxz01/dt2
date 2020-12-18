@@ -1,3 +1,15 @@
+commit 938abbadb2b56c2b340d2b5daf1912f2d24e9de6
+Author: Your Name <you@example.com>
+Date:   Fri Dec 18 01:17:28 2020 +0000
+
+    report
+
+commit 80d722ed38d77782a8b279f7710eba0169665832
+Author: Your Name <you@example.com>
+Date:   Fri Dec 18 00:45:03 2020 +0000
+
+    extra docs
+
 commit ed85ed8735fe4b621eea43c270decc85ac33a180
 Author: Your Name <you@example.com>
 Date:   Thu Dec 17 23:55:42 2020 +0000
