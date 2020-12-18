@@ -1,0 +1,128 @@
+commit ed85ed8735fe4b621eea43c270decc85ac33a180
+Author: Your Name <you@example.com>
+Date:   Thu Dec 17 23:55:42 2020 +0000
+
+    final changes for now
+
+commit 91ed68131bf33426b4cbd294c91c7ca9f7d4e967
+Author: Your Name <you@example.com>
+Date:   Tue Dec 15 00:23:41 2020 +0000
+
+    aesthetic changes
+
+commit 5d100c3ce05bb0467bda46d1104df9760bcbcbca
+Author: Your Name <you@example.com>
+Date:   Sun Dec 13 19:51:26 2020 +0000
+
+    minor tweaks
+
+commit 249bb519e2c1b0d55ba21f17c7165fcb3ac0bc8f
+Merge: 1aca78a bdf3170
+Author: ncxz01 <nickyrich300@gmail.com>
+Date:   Sun Dec 13 19:47:58 2020 +0000
+
+    Merge branch 'main' of https://github.com/ncxz01/dt2 into main
+    
+    #       data/MyCV.docx
+
+commit 1aca78a9afe6a98edd27df8d52a167fc2c524c59
+Author: Your Name <you@example.com>
+Date:   Sun Dec 13 19:43:06 2020 +0000
+
+    minor changes
+
+commit c9bde8f7f69fcbdf17e49604c21952f62ad26356
+Author: Your Name <you@example.com>
+Date:   Sun Dec 13 19:32:29 2020 +0000
+
+    cv and download button
+
+commit bdf31706cca9117f5b752c7d31fca6cd2fc9db25
+Author: ncxz01 <72401093+ncxz01@users.noreply.github.com>
+Date:   Sun Dec 13 19:28:39 2020 +0000
+
+    Delete MyCV.docx
+
+commit dc9446351cee47fb263dfd4b92a3339501e9a073
+Author: Your Name <you@example.com>
+Date:   Sun Dec 13 19:25:45 2020 +0000
+
+    only the cv
+
+commit 6bc30b374d8bf055fd2c8f447718d265313dccb9
+Author: Your Name <you@example.com>
+Date:   Sun Dec 13 18:56:46 2020 +0000
+
+    README
+
+commit f4dbf3d9917a98f16c898d403117be792fb32d01
+Author: ncxz01 <72401093+ncxz01@users.noreply.github.com>
+Date:   Sun Dec 13 18:54:58 2020 +0000
+
+    Delete contacts.html
+
+commit 61358d27e82d97d322e91b1cb63ad155725cd00a
+Author: Your Name <you@example.com>
+Date:   Sun Dec 13 18:44:20 2020 +0000
+
+    pictures used
+
+commit 36ffb32711e0be4281c1e3ea6b7acee59bf7dca2
+Author: Your Name <you@example.com>
+Date:   Sun Dec 13 18:41:01 2020 +0000
+
+    Added contact information.
+
+commit ca278c5c74fba328c72631199cdf2ca9c7de95a8
+Author: Your Name <you@example.com>
+Date:   Sun Dec 13 18:26:14 2020 +0000
+
+    updated con
+
+commit c50834c20659e4e6780f57f05d18380af8e4a128
+Author: Your Name <you@example.com>
+Date:   Sun Dec 13 18:16:35 2020 +0000
+
+    cv doc
+
+commit 1cb8072d10b29eb1c1e916625fe18667a8a090b0
+Author: Your Name <you@example.com>
+Date:   Sun Dec 13 18:09:06 2020 +0000
+
+    added my CV & download button
+
+commit 5c865b90c6a34be160480896f96d8c864c009870
+Author: Your Name <you@example.com>
+Date:   Sun Dec 13 18:02:53 2020 +0000
+
+    added header and body content
+
+commit e6de27cc99759e136f2b72a9d56c4d757d11fc01
+Author: Your Name <you@example.com>
+Date:   Sun Dec 13 04:46:04 2020 +0000
+
+    design changes
+
+commit 03b3e088c9a9da850f59d7211c9693a0e0e60dc6
+Author: Your Name <you@example.com>
+Date:   Sun Dec 13 04:39:08 2020 +0000
+
+    test document
+
+commit f2fc9d5467a4745e00a967ac608715a34c0928e6
+Author: Your Name <you@example.com>
+Date:   Mon Nov 30 20:36:03 2020 +0000
+
+    CV.html contacts.html debug.log
+
+commit 34d02e25c5abf9bcc972dfeb97ef33690e31bf4d
+Author: Your Name <you@example.com>
+Date:   Tue Nov 24 13:04:13 2020 +0000
+
+    added index.html
+
+commit aeb51b9b03e69bd9d6ee0023fb472d4fd2ec77a1
+Author: ncxz01 <72401093+ncxz01@users.noreply.github.com>
+Date:   Tue Nov 24 12:51:26 2020 +0000
+
+    Initial commit
